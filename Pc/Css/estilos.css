@@ -41,7 +41,10 @@ header img {
 
 #contenido {
     display: flex;
+    align-content: center;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .col1, .col2, .col3 {
     position: relative;
@@ -68,7 +71,12 @@ footer {
     padding: 10px;
     bottom: 0;
     width: 100%;
+    
 }
+ .social-icons a {
+    width: 2px;
+}
+
 
 .social-text {
     margin-bottom: 10px;
@@ -80,6 +88,13 @@ footer {
 }
 .footer-links {
     margin-top: 10px;
+}
+footer .footer-links a{
+    text-decoration: none;
+}
+footer .footer-links a:hover{
+    text-decoration: underline;
+    
 }
 
 .menu-button {
@@ -93,4 +108,17 @@ footer {
     color: white;
     text-decoration: none;
 }
-
+.A_boton_enviar input{
+    padding: 3px 27px;
+    background: black;
+    color: white;
+    border: 1px solid;
+    border-color: yellow;
+}
+.A_boton_enviar input:hover{
+    background-color: white;
+    color: #333;
+    border: none;
+    
+box-shadow: 1px 2px 37px -6px #000000;
+}
