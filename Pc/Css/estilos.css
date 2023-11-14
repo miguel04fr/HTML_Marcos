@@ -1,7 +1,8 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -44,18 +45,32 @@ header img {
     align-content: center;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
-.col1, .col2, .col3 {
+
+.col1,.col2,.col3 {
     position: relative;
     display: inline-block;
     vertical-align: top;
 }
-.col1 { width: 30%;
-    display: flex;
-align-items: center;}
-.col2 { width: 50%; }
-.col3 { width: 20%; }
+
+.col1 {
+    
+    width: 30%;
+   
+    align-items: center;
+}
+
+.col2 {
+    
+    width: 50%;
+
+}
+
+.col3 {
+    width: 20%;
+    
+}
 
 
 #clasificatoria {
@@ -71,9 +86,10 @@ footer {
     padding: 10px;
     bottom: 0;
     width: 100%;
-    
+
 }
- .social-icons a {
+
+.social-icons a {
     width: 2px;
 }
 
@@ -81,20 +97,24 @@ footer {
 .social-text {
     margin-bottom: 10px;
 }
+
 .social-icons img {
     margin: 0 10px;
     width: 20px;
     height: 20px;
 }
+
 .footer-links {
     margin-top: 10px;
 }
-footer .footer-links a{
+
+footer .footer-links a {
     text-decoration: none;
 }
-footer .footer-links a:hover{
+
+footer .footer-links a:hover {
     text-decoration: underline;
-    
+
 }
 
 .menu-button {
@@ -108,17 +128,19 @@ footer .footer-links a:hover{
     color: white;
     text-decoration: none;
 }
-.A_boton_enviar input{
+
+.A_boton_enviar input {
     padding: 3px 27px;
     background: black;
     color: white;
     border: 1px solid;
     border-color: yellow;
 }
-.A_boton_enviar input:hover{
+
+.A_boton_enviar input:hover {
     background-color: white;
     color: #333;
     border: none;
-    
-box-shadow: 1px 2px 37px -6px #000000;
+
+    box-shadow: 1px 2px 37px -6px #000000;
 }
