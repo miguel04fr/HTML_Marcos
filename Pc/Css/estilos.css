@@ -41,13 +41,14 @@ header img {
 }
 
 #contenido {
-    display: flex;
+   display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     margin: 10px;
     width: 100vw;
+    flex-wrap: wrap;
 }
 
 .col1,.col2,.col3 {
@@ -59,14 +60,14 @@ header img {
 .col1 {
     
     width: 30%;
-    margin-left: 10px;
+
     
 }
 
 .col2 {
     
     display: flex;
-    width: 50%;
+    width: 32%;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: nowrap;
@@ -179,3 +180,30 @@ form input{
     align-items: center;
     flex-direction: row;
 }
+@media screen and (min-width: 768px){
+    body{
+      width: 100%;
+    }
+   
+
+  }
+  
+  @media screen and (max-width: 767px) {
+.col2 {
+  flex-wrap: wrap;
+}
+.col1 {
+    flex-wrap: wrap;
+    margin-right:180px; 
+  }
+}
+
+  @media screen and (max-width: 767px){
+    body{
+      width: 100%;
+    }
+    .col2{
+      width: 100%;
+    }
+
+  }
