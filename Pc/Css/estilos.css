@@ -194,8 +194,13 @@ form input{
 }
 .col1 {
     flex-wrap: wrap;
-    margin-right:180px; 
+    margin-right: 226px;
   }
+  .Centro_Participa{
+    width: 80%;
+    height: 80%;
+    margin-left: 1px;
+    padding: 29px;
 }
 
   @media screen and (max-width: 767px){
